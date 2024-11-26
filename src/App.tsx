@@ -64,7 +64,7 @@ export default function App() {
                   rel="noopener noreferrer"
                   className="text-lg sm:text-xl mb-4 text-gray-900 dark:text-gray-100 font-medium hover:text-blue-500 dark:hover:text-blue-400 transition-colors flex items-center gap-2"
                 >
-                  Total Raised: 420.69 alien funny money <ExternalLink className="h-4 w-4" />
+                  Total Raised: 420.69 UAP (universal aliens pennies) <ExternalLink className="h-4 w-4" />
                 </a>
                 <div className="w-full bg-blue-200/40 dark:bg-blue-900/40 rounded-full h-4 overflow-hidden neon-border">
                   <div 
