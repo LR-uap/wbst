@@ -53,7 +53,14 @@ export default function App() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white/10 dark:bg-black/80 p-4 sm:p-6 rounded-xl border border-white/20">
-                <p className="text-lg sm:text-xl mb-4 text-gray-900 dark:text-gray-100 font-medium">Total Raised: 420.69 ETH</p>
+                <a 
+                  href="https://app.apewave.fun/token/resource_rdx1tk89kg35tm50fvvj94q9swf432n47ag27twdcflqftvs9qr6rn4ft8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg sm:text-xl mb-4 text-gray-900 dark:text-gray-100 font-medium hover:text-blue-500 dark:hover:text-blue-400 transition-colors flex items-center gap-2"
+                >
+                  Total Raised: 420.69 ETH <ExternalLink className="h-4 w-4" />
+                </a>
                 <div className="w-full bg-blue-200/40 dark:bg-blue-900/40 rounded-full h-4 overflow-hidden neon-border">
                   <div 
                     className="bg-gradient-to-r from-blue-500 to-blue-600 h-full rounded-full"
