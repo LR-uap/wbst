@@ -38,9 +38,14 @@ export default function App() {
             <p className="text-lg sm:text-xl text-gray-900 dark:text-gray-100 mb-8 max-w-2xl mx-auto font-medium px-4">
               The UAP memecoin for everyone that wants to believe.
             </p>
-            <button className="bg-gradient-to-r from-blue-500 to-blue-700 text-white neon-border px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:from-blue-600 hover:to-blue-800 transition-all duration-300 hover:-translate-y-1">
-              Launch App
-            </button>
+            <a 
+              href="https://app.apewave.fun/token/resource_rdx1tk89kg35tm50fvvj94q9swf432n47ag27twdcflqftvs9qr6rn4ft8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white neon-border px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:from-blue-600 hover:to-blue-800 transition-all duration-300 hover:-translate-y-1"
+            >
+              Launch App <ExternalLink className="h-4 w-4" />
+            </a>
           </div>
         </section>
 
