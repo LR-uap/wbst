@@ -64,7 +64,7 @@ export default function App() {
                   rel="noopener noreferrer"
                   className="text-lg sm:text-xl mb-4 text-gray-900 dark:text-gray-100 font-medium hover:text-blue-500 dark:hover:text-blue-400 transition-colors flex items-center gap-2"
                 >
-                  Total Raised: 420.69 AFM (Alien Funny Money) <ExternalLink className="h-4 w-4" />
+                  Total Raised: 420.69 alien funny money <ExternalLink className="h-4 w-4" />
                 </a>
                 <div className="w-full bg-blue-200/40 dark:bg-blue-900/40 rounded-full h-4 overflow-hidden neon-border">
                   <div 
@@ -79,9 +79,14 @@ export default function App() {
                   placeholder="Enter amount" 
                   className="flex-1 bg-white/10 dark:bg-black/80 border border-blue-300/50 dark:border-blue-700/50 rounded-lg px-4 py-2 text-gray-900 dark:text-gray-100 placeholder-gray-700 dark:placeholder-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-500/50 transition-all duration-300"
                 />
-                <button className="bg-gradient-to-r from-blue-500 to-blue-700 text-white neon-border px-6 py-2 rounded-lg hover:from-blue-600 hover:to-blue-800 transition-all duration-300">
-                  Buy Now
-                </button>
+                <a 
+                  href="https://app.apewave.fun/token/resource_rdx1tk89kg35tm50fvvj94q9swf432n47ag27twdcflqftvs9qr6rn4ft8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white neon-border px-6 py-2 rounded-lg hover:from-blue-600 hover:to-blue-800 transition-all duration-300"
+                >
+                  Buy Now <ExternalLink className="h-4 w-4" />
+                </a>
               </div>
             </div>
           </div>
